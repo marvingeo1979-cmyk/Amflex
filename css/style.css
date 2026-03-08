@@ -256,7 +256,7 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('C:/Users/Marvin Martinez/.gemini/antigravity/brain/6f3314b5-24bb-4330-ba4c-62a3ea0d6536/hero_bg_1772940233174.png');
+    background-image: url('../img/hero_bg_1772940233174.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
