@@ -937,8 +937,10 @@ ul {
     box-shadow: var(--shadow-lg);
     font-size: 1.125rem;
     padding: 1rem 2rem;
-    white-space: nowrap;
     max-width: 90%;
+    line-height: 1.5;
+    text-align: center;
+    white-space: normal;
 }
 
 .form-control {
