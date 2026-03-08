@@ -207,10 +207,24 @@ ul {
 
 /* En caso de que no haya src, mostrar un placeholder texto */
 .logo-container {
+    background-color: var(--glass-bg);
+    padding: 0.5rem 1rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     font-family: var(--font-heading);
     font-weight: 800;
     font-size: 1.5rem;
     color: var(--primary-blue);
+    transition: var(--transition);
+}
+
+.header.scrolled .logo-container {
+    background-color: transparent;
+    box-shadow: none;
+    padding: 0;
 }
 
 .nav-links {
