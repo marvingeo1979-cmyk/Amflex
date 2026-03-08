@@ -930,13 +930,15 @@ ul {
 
 .btn-directions {
     position: absolute;
-    bottom: 30px;
+    bottom: 40px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 10;
     box-shadow: var(--shadow-lg);
     font-size: 1.125rem;
     padding: 1rem 2rem;
+    white-space: nowrap;
+    max-width: 90%;
 }
 
 .form-control {
